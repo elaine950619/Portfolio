@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+body{
+    background-color: white;   
+    font-family: 'Piazzolla', serif;
+    margin: 50px;
+}
+
+.container > div{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(165, 207, 224);
+}
+/* 
+#item1{
+    left: 225px;
+    top: 500px;
+    display: flex;
+} */
+
+#item2{
+    left: 400px;
+    top: 450px;
+    display: flex;
+}
+
+#item3{
+    right: 400px;
+    top: 500px;
+    display: flex;
+}
+
+#item4{
+    right: 225px;
+    top: 450px;
+    display: flex;
+}
+
+#item1, #item2, #item3, #item4{
+    text-align:center;
+}
+
+#item1 a, #item2 a, #item3 a, #item4 a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px; 
+}
+
+.align-center{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 
+h1{
+    font-family: 'Lato', sans-serif;
+} */
+
+p{
+    margin: 0px 300px;
+}
+
+#item1:hover, #item2:hover, #item3:hover, #item4:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+#item1{
+    background-color: lightblue;
+    background-image: url('../Portfolio/Pictures/pexels-photo-3862130.jpeg  ');
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,76 @@
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #f0e9a9;
+    color: black;
+}
+
+.bg-image {
+    background-image: url("../Portfolio/Pictures/mountain.jpg");
+    filter: blur(3px);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 15px;
+    width: 15px;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+#elaine {height:500px}
