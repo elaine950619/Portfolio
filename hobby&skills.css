@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+*{
+  font-family: 'Piazzolla', serif;
+}
+
 body {margin:0;}
 
 ul {
@@ -6,7 +12,6 @@ ul {
   padding:       0;
   overflow: hidden;
   background-color: #333;
-  /* position: sticky; */
   top: 0;
   width: 100%;
   z-index:10;
@@ -41,11 +46,6 @@ h1{
 p{
     margin: 20px 20px 10px 30px; 
 }
-
-/* .hobbies{
-    margin: 20px 20px 10px 30px; 
-} */
-
 
 hr{
     height:2px;
