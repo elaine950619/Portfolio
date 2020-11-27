@@ -100,9 +100,28 @@ p{
   margin: 20px 20px 10px 30px; 
 }
 
+#allcourses{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .coursetaken{
   display: flex;
   justify-content: center;
+  width: 50%;
+}
+
+.classes{
+  display: flex;
+  justify-content: center; 
+  width: 30%;
+}
+
+.works{
+  display: flex;
+  justify-content: center;
+  width: 70%;
 }
 
 video{
@@ -134,4 +153,26 @@ figcaption {
   width: 300px;
   border-radius: 8px;
   margin: 0px 30px 0px 0px;
+}
+
+hr {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  *{font-size: 1.3rem}
+  h1{font-size: 1.3rem}
+
+  #allcourses, .coursetaken, .classes, .work{
+    display: inline;
+    width: 100%;
+  }
+
+  .allcourses{
+    
+  }
+
+  hr{
+    display: initial;
+  }
 }
