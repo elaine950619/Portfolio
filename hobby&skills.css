@@ -94,8 +94,37 @@ hr{
   transform: rotate(45deg);
 }
 
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.individual{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+hr{
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   *{font-size: 1.3rem}
-
   h1{font-size: 1.3rem}
+
+  .flexbox-container, .individual, .title, .paragraph{
+    display: inline;
+    width: 100%;
+  }
+
+  hr{
+    display: initial;
+  }
+  
+  .works{
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }

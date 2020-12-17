@@ -82,6 +82,28 @@ p{
   font-size: 2rem;
 }
 
+.alllevels{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.individual{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.title{
+  display: flex;
+  width: 30%;
+}
+
+.paragraph{
+  display: flex;
+  width: 70%;
+}
+
 .arrow {
   border: solid white;
   border-width: 0 6px 6px 0;
@@ -89,6 +111,10 @@ p{
   padding: 3px;
   height: 15px;
   width: 15px;
+}
+
+hr{
+  display: none;
 }
 
 .down {
@@ -99,6 +125,19 @@ p{
 
 @media only screen and (max-width: 1000px) {
   *{font-size: 1.3rem}
-
   h1{font-size: 1.3rem}
+
+  .alllevels, .individual, .title, .paragraph{
+    display: inline;
+    width: 100%;
+  }
+
+  hr{
+    display: initial;
+  }
+  
+  .works{
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }
